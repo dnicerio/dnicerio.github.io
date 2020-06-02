@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 
+import 'font-awesome/css/font-awesome.min.css';
 import './layout.css';
 
 const Layout = ({ children }) => {

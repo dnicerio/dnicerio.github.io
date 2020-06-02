@@ -7,15 +7,8 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  color: white;
-}
-
-footer {
-  margin: 0px;
-  padding: 0px;
+  color: #efecec;
 }

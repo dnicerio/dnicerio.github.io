@@ -8,11 +8,26 @@ import './contact.css'
 
 const ContactPage = () => (
   <Layout>
-    <div className="contact-container">
-      <SEO title="Contact" />
-      <h1>This is the Contacts page</h1>
-      <p>Darryl Nicerio's contact information will be put here</p>
-      <Link to="/">Go back to the homepage</Link>
+    <SEO title="Contact" />
+    <div className="contact-section">
+      <div className="contact-container">
+        <div className="contact-header">
+          <h2>
+            I'm available for work, <span>let's get in touch</span>.
+          </h2>
+        </div>
+        <div className="contact-icon">
+            <Link to="https://www.linkedin.com/in/darrylnicerio/" target="_blank">
+              <i className="fa fa-linkedin" aria-hidden="true"></i>                
+            </Link>
+            <Link to="https://github.com/dnicerio/" target="_blank">
+              <i className="fa fa-github" aria-hidden="true"></i>                
+            </Link>
+            <Link to="mailto:dnicerio@gmail.com" target="_blank">
+              <i className="fa fa-at" aria-hidden="true"></i>                
+            </Link>
+        </div>
+      </div>
     </div>
   </Layout>
 )

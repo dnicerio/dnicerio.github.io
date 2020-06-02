@@ -1,4 +1,4 @@
-.index-container {
+.index-section {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -10,7 +10,7 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  margin: 39vh auto;
+  margin: 42vh auto 0px auto;
   max-width: 720px;
 }
 
@@ -28,4 +28,14 @@ span {
   align-self: center;
   font-size: 2rem;
   font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .main-header {
+    font-size: 1.9rem;
+  }
+
+  .sub-header {
+    font-size: 1rem;
+  }
 }
