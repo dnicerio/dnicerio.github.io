@@ -12,7 +12,6 @@ const IndexPage = () => (
         <SEO title="Home" />
         <h1 className="main-header">Hi! I'm <span>Darryl Nicerio</span>.</h1>
         <p className="sub-header">aspiring <span>front-end</span> web developer.</p>
-        {/* <Link to="/about/">Go to About page</Link> */}
       </div>
     </div>
   </Layout>

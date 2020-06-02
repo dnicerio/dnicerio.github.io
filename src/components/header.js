@@ -8,22 +8,21 @@ const Header = ({ siteTitle }) => (
   <header className="navbar">
     <div className="nav-title">
       <p className="title">
-        <Link
-          to="/"
-          style={{
-            textDecoration: `none`,
-            color: `white`,
-            fontSize: `24px`
-          }}
-        >
+        <Link to="/" className="link">
           {siteTitle}
         </Link>
       </p>
     </div>
     <ul className="nav-links">
-      <li><Link to="/about/">About</Link></li>
-      <li><Link to="/projects/">Projects</Link></li>
-      <li><Link to="/contact/">Contact</Link></li>
+      <li>
+        <Link to="/about/" className="link">About</Link>
+      </li>
+      <li>
+        <Link to="/projects/" className="link">Projects</Link>
+      </li>
+      <li>
+        <Link to="/contact/" className="link">Contact</Link>
+      </li>
     </ul>
   </header>
 )

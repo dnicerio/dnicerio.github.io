@@ -5,13 +5,9 @@
   position: fixed;
   left: 0;
   right: 0;
-  margin: 0 auto;
+  margin: 0px auto;
+  padding: 10px 0px;
   max-width: 900px;
-  border: 1px solid yellow;
-}
-
-.nav-title {
-  border: 1px solid purple;
 }
 
 .nav-links {
@@ -21,5 +17,16 @@
 
 li {
   list-style: none;
+  margin-left: 60px;
+}
+
+.link {
   text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.2s ease-out;
+}
+
+.link:hover {
+  color: #62929a;
 }
