@@ -1,0 +1,30 @@
+.index-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #5c5757;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  margin: 39vh auto;
+  max-width: 720px;
+}
+
+.main-header {
+  align-self: center;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+span {
+  color: #62929a;
+}
+
+.sub-header {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
