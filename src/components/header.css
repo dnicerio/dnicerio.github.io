@@ -1,23 +1,32 @@
 .navbar {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   position: fixed;
   left: 0;
   right: 0;
-  margin: 0px auto;
+  margin: 0rem auto;
   padding: 20px 0px;
   max-width: 900px;
 }
 
+.brand-title {
+  text-decoration: none;
+  color: #efecec;
+  font-size: 1.4rem;
+  transition: all 0.2s ease-out;
+}
+
+.brand-title:hover {
+  color: #62929a;
+}
+
 .nav-links {
   display: flex;
-  flex-direction: row;
 }
 
 li {
   list-style: none;
-  margin-left: 60px;
+  margin-left: 3.5rem;
 }
 
 .link {
@@ -29,4 +38,57 @@ li {
 
 .link:hover {
   color: #62929a;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-btn .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #efecec;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .brand-title {
+    margin-left: 1rem;
+  }
+
+  .toggle-btn {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    background-color: #363434;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    padding: 1.4rem 0rem;
+  }
+
+  li {
+    align-self: center;
+    margin: 1.4rem auto;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
 }

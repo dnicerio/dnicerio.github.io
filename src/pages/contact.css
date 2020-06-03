@@ -18,7 +18,7 @@
   align-self: center;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .contact-icon {
@@ -27,18 +27,36 @@
   justify-content: center;
 }
 
+.icon {
+  margin: 0rem 1rem;
+}
+
 .fa {
   color: #efecec;
   text-decoration: none;
   font-size: 24px;
-  margin-right: 30px;
-  padding: 24px;
+  padding: 1.5rem;
   background-color: #363434;
-  border-radius: 45px;
+  border-radius: 50%;
   transition: all 0.2s ease-out;
 }
 
 .fa:hover {
   color: #363434;
   background-color: #efecec;
+}
+
+@media (max-width: 640px) {
+  .contact-header {
+    font-size: .8rem
+  }
+
+  .icon {
+    margin: 0rem .5rem
+  }
+
+  .fa {
+    font-size: 24px;
+    padding: 1rem;
+  }
 }

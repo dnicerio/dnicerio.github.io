@@ -13,19 +13,19 @@ const ContactPage = () => (
       <div className="contact-container">
         <div className="contact-header">
           <h2>
-            I'm available for work, <span>let's get in touch</span>.
+            I'm available, <span>let's work together</span>.
           </h2>
         </div>
         <div className="contact-icon">
-            <Link to="https://www.linkedin.com/in/darrylnicerio/" target="_blank">
+            <a href="https://www.linkedin.com/in/darrylnicerio/" className="icon" target="_blank">
               <i className="fa fa-linkedin" aria-hidden="true"></i>                
-            </Link>
-            <Link to="https://github.com/dnicerio/" target="_blank">
+            </a>
+            <a href="https://github.com/dnicerio/" className="icon" target="_blank">
               <i className="fa fa-github" aria-hidden="true"></i>                
-            </Link>
-            <Link to="mailto:dnicerio@gmail.com" target="_blank">
+            </a>
+            <a href="mailto:dnicerio@gmail.com" className="icon" target="_blank">
               <i className="fa fa-at" aria-hidden="true"></i>                
-            </Link>
+            </a>
         </div>
       </div>
     </div>
