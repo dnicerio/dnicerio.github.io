@@ -16,7 +16,7 @@
 
 .contact-header {
   align-self: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -35,7 +35,7 @@
   color: #efecec;
   text-decoration: none;
   font-size: 24px;
-  padding: 1.5rem;
+  padding: 24px;
   background-color: #363434;
   border-radius: 50%;
   transition: all 0.2s ease-out;
@@ -56,7 +56,7 @@
   }
 
   .fa {
-    font-size: 24px;
-    padding: 1rem;
+    font-size: 20px;
+    padding: 20px;
   }
 }

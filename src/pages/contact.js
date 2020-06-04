@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,14 +16,14 @@ const ContactPage = () => (
           </h2>
         </div>
         <div className="contact-icon">
-            <a href="https://www.linkedin.com/in/darrylnicerio/" className="icon" target="_blank">
+            <a href="https://www.linkedin.com/in/darrylnicerio/" className="icon" target="_blank" rel="noreferrer">
               <i className="fa fa-linkedin" aria-hidden="true"></i>                
             </a>
-            <a href="https://github.com/dnicerio/" className="icon" target="_blank">
+            <a href="https://github.com/dnicerio/" className="icon" target="_blank" rel="noreferrer">
               <i className="fa fa-github" aria-hidden="true"></i>                
             </a>
-            <a href="mailto:dnicerio@gmail.com" className="icon" target="_blank">
-              <i className="fa fa-at" aria-hidden="true"></i>                
+            <a href="mailto:dnicerio@gmail.com" className="icon" target="_blank" rel="noreferrer">
+            <i className="fa fa-envelope" aria-hidden="true"></i>                
             </a>
         </div>
       </div>
