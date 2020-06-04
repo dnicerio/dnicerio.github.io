@@ -1,18 +1,54 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import main from  '../images/main.jpg'
 
 import './projects.css'
 
 const ProjectsPage = () => (
   <Layout>
-    <div className="projects-container">
-      <SEO title="Projects" />
-      <h1>This is the projects page</h1>
-      <p>All of Darryl Nicerio's project will be displayed here</p>
-      <Link to="/">Go back to the homepage</Link>
+    <SEO title="Projects" />
+    <div className="projects-section">
+      <div className="projects-container">
+        <div className="projects-card">
+          <img src={main} className="card-img" alt="test"></img>
+          <div className="card-body">
+            <h5 className="card-title">Card Title</h5>
+            <p className="card-text">
+              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+            </p>
+          </div>
+          <div className="btn-container"> 
+            <a href="https://github.com/dnicerio" class="card-btn" target="_blank" rel="noreferrer">Go somewhere</a>
+          </div>   
+        </div>
+        <div className="projects-card">
+          <img src={main} className="card-img" alt="test"></img>
+          <div className="card-body">
+            <h5 className="card-title">Card Title</h5>
+            <p className="card-text">
+              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+            </p>
+          </div>
+          <div className="btn-container"> 
+            <a href="https://github.com/dnicerio" class="card-btn" target="_blank" rel="noreferrer">Go somewhere</a>
+          </div>   
+        </div>
+        <div className="projects-card">
+          <img src={main} className="card-img" alt="test"></img>
+          <div className="card-body">
+            <h5 className="card-title">Card Title</h5>
+            <p className="card-text">
+              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+            </p>
+          </div>
+          <div className="btn-container"> 
+            <a href="https://github.com/dnicerio" class="card-btn" target="_blank" rel="noreferrer">Go somewhere</a>
+          </div>   
+        </div>
+      </div>
     </div>
   </Layout>
 )

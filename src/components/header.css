@@ -64,6 +64,11 @@ li {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
   .brand-title {
     margin-left: 1rem;
   }
@@ -75,11 +80,6 @@ li {
   .nav-links {
     display: none;
     background-color: #363434;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .nav-links {

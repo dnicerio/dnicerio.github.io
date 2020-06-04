@@ -7,9 +7,9 @@ import './index.css'
 
 const IndexPage = () => (
   <Layout>
+    <SEO title="Home" />
     <div className="index-section">
       <div className="header-container">
-        <SEO title="Home" />
         <h1 className="main-header">Hi! I'm <span>Darryl Nicerio</span>.</h1>
         <p className="sub-header">a <span>front-end</span> web developer.</p>
       </div>
