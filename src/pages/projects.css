@@ -20,8 +20,7 @@
 }
 
 .card-img {
-  max-height: 300px;
-  max-width: 300px;
+  width: 300px;
 }
 
 .card-body {
@@ -29,12 +28,25 @@
 }
 
 .card-title {
-  font-size: 1.4rem;
-  font-weight: 600;
+  text-decoration: none;
+  color: #62929a;
+  transition: all 0.2s ease-out;
 }
+
+.card-title:hover {
+  color: #efecec;
+}
+
+.card-title h5 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
 
 .card-text {
   font-size: 1rem;
+  font-weight: 400;
   word-wrap: break-word;   
   overflow-wrap: break-word;
   word-break: break-word;
