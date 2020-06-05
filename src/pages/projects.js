@@ -17,7 +17,7 @@ const ProjectsPage = () => (
           <div className="card-body">
             <h5 className="card-title">Card Title</h5>
             <p className="card-text">
-              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus
             </p>
           </div>
           <div className="btn-container"> 
@@ -29,7 +29,7 @@ const ProjectsPage = () => (
           <div className="card-body">
             <h5 className="card-title">Card Title</h5>
             <p className="card-text">
-              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus
             </p>
           </div>
           <div className="btn-container"> 
@@ -41,7 +41,7 @@ const ProjectsPage = () => (
           <div className="card-body">
             <h5 className="card-title">Card Title</h5>
             <p className="card-text">
-              idjasjdlasdjkahkdajkdaksdjkaskdajkdhkaskdahsjkdhaksdhjkasjdkhaskdahjskdjkhas
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus
             </p>
           </div>
           <div className="btn-container"> 
