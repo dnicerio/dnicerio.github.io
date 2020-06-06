@@ -27,7 +27,7 @@ const ProjectsPage = () => (
             </p>
           </div>
           <div className="btn-container"> 
-            <a href="https://github.com/dnicerio/random-quote-machine/tree/master" class="card-btn" target="_blank" rel="noreferrer">Github</a>
+            <a href="https://github.com/dnicerio/random-quote-machine/tree/master" class="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
         <div className="projects-card">
@@ -43,7 +43,7 @@ const ProjectsPage = () => (
             </p>
           </div>
           <div className="btn-container"> 
-            <a href="https://github.com/dnicerio/todolist-redo/tree/master" class="card-btn" target="_blank" rel="noreferrer">Github</a>
+            <a href="https://github.com/dnicerio/todolist-redo/tree/master" class="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
         <div className="projects-card">
@@ -59,7 +59,7 @@ const ProjectsPage = () => (
             </p>
           </div>
           <div className="btn-container"> 
-            <a href="https://github.com/dnicerio/speed-typing-game/tree/master" class="card-btn" target="_blank" rel="noreferrer">Github</a>
+            <a href="https://github.com/dnicerio/speed-typing-game/tree/master" class="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
       </div>

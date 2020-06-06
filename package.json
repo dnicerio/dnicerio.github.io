@@ -2,7 +2,7 @@
   "name": "dnicerio.github.io",
   "private": true,
   "description": "Portfolio webpage of Darryl Nicerio",
-  "version": "0.8.0",
+  "version": "1.0.0",
   "author": "Darryl Nicerio <dnicerio@gmail.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",

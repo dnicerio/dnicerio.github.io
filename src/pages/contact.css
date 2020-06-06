@@ -31,7 +31,7 @@
   margin: 0rem 1rem;
 }
 
-.fa {
+.icon i {
   color: #efecec;
   text-decoration: none;
   font-size: 24px;
@@ -41,7 +41,7 @@
   transition: all 0.2s ease-out;
 }
 
-.fa:hover {
+.icon i:hover {
   color: #363434;
   background-color: #efecec;
 }
@@ -55,7 +55,7 @@
     margin: 0rem .5rem
   }
 
-  .fa {
+  .icon i {
     font-size: 20px;
     padding: 20px;
   }

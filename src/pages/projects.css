@@ -43,7 +43,6 @@
   margin-bottom: 6px;
 }
 
-
 .card-text {
   font-size: 1rem;
   font-weight: 400;
@@ -70,7 +69,18 @@
   background-color: #62929a;
   border: none;
   text-decoration: none;
+  transition: all 0.2s ease-out;
 }
+
+.card-btn:hover {
+  color:  #62929a;
+  background-color: hsl(220, 12%, 95%);
+  border: 1px solid #62929a;
+}
+
+.card-btn i {
+  font-size: 24px;
+} 
 
 @media (min-width: 900px) {
   .projects-section {

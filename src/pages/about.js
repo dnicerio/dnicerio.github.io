@@ -22,7 +22,18 @@ const AboutPage = () => (
           </div>
           <div className="bio">
             <h3 className="bio-header"><span>Bio</span></h3>
-            <p className="bio-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
+            <p className="bio-text">
+              Hey there! I'm Darryl Nicerio, a web developer that (as of now) specializes in the front-end department. This website was made to showcase all of what I have done, can do and plan to do.
+              <br></br>
+              <br></br>
+              I got into development because of my love for computers, the internet and learning new technologies. That desire to always learn has naturally led me to this path.
+              <br></br>
+              <br></br>
+              As a web developer, it's only natural for me to have experience in languages such as HTML, CSS/SASS, JavaScript. I also have experience developing in some front-end frameworks and libraries like Bootstrap, React.js and GatsbyJS.
+              <br></br>
+              <br></br>
+              If you need someone with these skillset and like my work, please feel free to head over to the Contact section so we can get in touch. I would love to hear from you.
+            </p>
           </div>
         </div>
       </div>
