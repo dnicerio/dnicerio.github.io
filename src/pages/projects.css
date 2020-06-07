@@ -57,6 +57,7 @@
   background-color: hsl(220, 12%, 95%);
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  height: 76px;
 }
 
 .card-btn {
@@ -73,7 +74,7 @@
 }
 
 .card-btn:hover {
-  color:  #62929a;
+  color: #62929a;
   background-color: hsl(220, 12%, 95%);
   border: 1px solid #62929a;
 }
