@@ -75,6 +75,7 @@
 
 .card-btn:hover {
   color: #62929a;
+  padding: 11px;
   background-color: hsl(220, 12%, 95%);
   border: 1px solid #62929a;
 }
