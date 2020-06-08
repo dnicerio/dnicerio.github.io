@@ -17,7 +17,7 @@ const AboutPage = () => (
         </div>
         <div className="about-info">
           <div className="bio-image">
-            <img src={about} alt="test"></img>
+            <img src={about} alt="Profile pic of Darryl Nicerio"></img>
           </div>
           <div className="bio">
             <h4 className="bio-header">Welcome to my <span>portfolio</span>.</h4>

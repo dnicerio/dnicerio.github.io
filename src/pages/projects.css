@@ -91,7 +91,7 @@
   font-size: 24px;
 } 
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
   .projects-section {
     height: 100vh;
     overflow: hidden;
