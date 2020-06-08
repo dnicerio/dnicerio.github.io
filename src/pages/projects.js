@@ -13,6 +13,11 @@ const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
     <div className="projects-section">
+      <div className="projects-header">
+        <h2>
+          These are some of my <span>projects</span>.
+        </h2>
+      </div>
       <div className="projects-container">
         <div className="projects-card">
           <a href="https://dnicerio.github.io/random-quote-machine/" target="_blank" rel="noreferrer">
@@ -23,7 +28,7 @@ const ProjectsPage = () => (
               <h5>Random Quote Machine</h5>
             </a>
             <p className="card-text">
-              Random quote generator application built in React.js
+              Random quote generator application built in React.js. It fetches a random quote and author from a 3rd party API everytime a button is pressed.
             </p>
           </div>
           <div className="btn-container"> 
@@ -39,7 +44,7 @@ const ProjectsPage = () => (
               <h5>Todo List</h5>
             </a>
             <p className="card-text">
-              A Todo List application built in React.js
+              A Todo List application built in React.js. Aside from all basic Todo List functionality, it also has localStorage support to save/restore todos on app exit.
             </p>
           </div>
           <div className="btn-container"> 
@@ -55,7 +60,7 @@ const ProjectsPage = () => (
               <h5>Speed Typing Game</h5>
             </a>  
             <p className="card-text">
-              Simple speed typing game built in JavaScript and Bootstrap
+              Simple speed typing game built in JavaScript and Bootstrap. You'll be given 3 seconds for each random word to type it in. The game is over when the timer runs out.
             </p>
           </div>
           <div className="btn-container"> 
