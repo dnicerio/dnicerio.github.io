@@ -1,4 +1,5 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,12 +14,12 @@ const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
     <div className="projects-section">
-      <div className="projects-header">
+      <motion.div initial={{ y: -1440 }} animate={{ y: 0 }} className="projects-header">
         <h2>
           These are some of my <span>projects</span>.
         </h2>
-      </div>
-      <div className="projects-container">
+      </motion.div>
+      <motion.div initial={{ y: 1440 }} animate={{ y: 0 }} className="projects-container">
         <div className="projects-card">
           <a href="https://dnicerio.github.io/random-quote-machine/" target="_blank" rel="noreferrer">
             <img src={random} className="card-img" alt="Random Quote Machine"></img>
@@ -67,7 +68,7 @@ const ProjectsPage = () => (
             <a href="https://github.com/dnicerio/speed-typing-game/tree/master" class="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
-      </div>
+      </motion.div>
     </div>
   </Layout>
 )

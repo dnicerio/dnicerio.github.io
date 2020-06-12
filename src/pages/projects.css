@@ -11,10 +11,12 @@
   font-weight: 600;
   text-align: center;
   margin: 84px 6px 0px 6px;
+  transition: all 0.3s ease-out;
 }
 
 .projects-container {
   margin: 36px auto 0px auto;
+  transition: all 0.3s ease-out;
 }
 
 .projects-card {
