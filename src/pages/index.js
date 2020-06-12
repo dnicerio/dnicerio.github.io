@@ -11,10 +11,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="index-section">
       <div className="header-container">
-        <motion.h1 initial={{ x: -1200 }} animate={{ x: 0 }} className="main-header">
+        <motion.h1 initial={{ x: -1440 }} animate={{ x: 0 }} className="main-header">
           Hi! I'm <span>Darryl Nicerio</span>.
         </motion.h1>
-        <motion.p initial={{ x: 1200 }} animate={{ x: 0 }} className="sub-header">
+        <motion.p initial={{ x: 1440 }} animate={{ x: 0 }} className="sub-header">
           a <span>front-end</span> web developer.
         </motion.p>
       </div>

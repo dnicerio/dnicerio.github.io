@@ -17,6 +17,7 @@
 .about-header {
   font-size: 1.6rem;
   font-weight: 600;
+  transition: all 0.3s ease-out;
 }
 
 .about-info {
@@ -32,6 +33,7 @@
   border-radius: 50%;
   margin-bottom: 6px;
   overflow: hidden;
+  transition: all 0.4s ease-out;
 }
 
 .bio-image img {
@@ -46,18 +48,21 @@
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 12px;
+  transition: all 0.5s ease-out;
 }
 
 .bio-text {
   text-align: start;
   font-size: 1rem;
   font-weight: 400;
+  transition: all 0.8s ease-out;
 }
 
 @media (min-width: 720px) {
   .about-container {
     margin: 11vh auto 0vh auto;
     overflow: hidden;
+    padding-bottom: 33vh;
   }
 
   .about-header {
