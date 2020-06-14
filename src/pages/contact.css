@@ -19,10 +19,10 @@
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 1.5rem;
-  transition: all .3s step-end;
   -webkit-transition: all .3s step-end;
   -moz-transition: all .3s step-end;
   -o-transition: all .3s step-end;
+  transition: all .3s step-end;
 }
 
 .contact-icon {
@@ -33,10 +33,10 @@
 
 .icon {
   margin: 0rem 1rem;
-  transition: all 0.3s ease-out;
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .icon i {

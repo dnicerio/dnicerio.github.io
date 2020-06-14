@@ -18,10 +18,10 @@
   align-self: center;
   font-size: 4rem;
   font-weight: 600;
-  transition: all .3s ease-out;
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 span {
@@ -32,10 +32,10 @@ span {
   align-self: center;
   font-size: 2rem;
   font-weight: 400;
-  transition: all .3s ease-out;
   -webkit-transition: all .3s ease-out;
   -moz-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 @media (max-width: 640px) {
