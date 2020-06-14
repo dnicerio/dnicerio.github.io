@@ -80,9 +80,6 @@ li {
   .nav-links {
     display: none;
     background-color: #363434;
-  }
-
-  .nav-links {
     width: 100%;
     flex-direction: column;
     padding: 1.4rem 0rem;
