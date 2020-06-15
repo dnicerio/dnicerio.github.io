@@ -22,11 +22,11 @@ class Header extends React.Component {
             {this.props.siteTitle}
           </Link>
         </div>
-        <button href="#" className="toggle-btn">
+        <a href="#" className="toggle-btn">
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
-        </button>
+        </a>
         <ul className="nav-links">
           <li>
             <Link to="/about/" className="link">About</Link>
