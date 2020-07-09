@@ -15,7 +15,7 @@ const IndexPage = () => (
           Hi! I'm <span>Darryl Nicerio</span>.
         </motion.h1>
         <motion.p initial={{ x: 1440 }} animate={{ x: 0 }} className="sub-header">
-          a <span>front-end</span> web developer.
+          a <span>full stack</span> web developer.
         </motion.p>
       </div>
     </div>
