@@ -2,7 +2,7 @@
   "name": "dnicerio.github.io",
   "private": true,
   "description": "Portfolio page of Darryl Nicerio built in GatsbyJS. This website was made to showcase all of what I have done, can do and plan to do.",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "author": "Darryl Nicerio <dnicerio@gmail.com>",
   "dependencies": {
     "font-awesome": "^4.7.0",

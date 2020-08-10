@@ -27,13 +27,13 @@ const AboutPage = () => (
               Welcome to my <span>portfolio</span>.
             </motion.h4>
             <motion.p initial={{ y: 1440 }} animate={{ y: 0 }} className="bio-text">
-              Hello! I'm Darryl Nicerio, a full stack JavaScript developer that specializes in MERN stack. This website was made to showcase all of what I have done, can do and plan to do.
+              Hello! I'm Darryl Nicerio, a web developer that specializes in JavaScript and PHP. This website was made to showcase all of what I have done, can do and plan to do.
               <br></br>
               <br></br>
               I got into software development because of my love for computers, the internet and learning new technologies. That desire to always learn has naturally led me to this path.
               <br></br>
               <br></br>
-              As a full stack developer, my workflow involves front end web technologies such as HTML, CSS/SASS, JavaScript, front-end frameworks and libraries like Bootstrap, React.js and GatsbyJS. As for back end development, the web technologies I use are Node.js, Express.js and MongoDB for database.
+              As a web developer, my workflow involves front end web technologies such as HTML, CSS/SASS, JavaScript, front-end frameworks and libraries like Bootstrap, React.js and GatsbyJS. For back end development, the web technologies I use are Node.js, Express.js, PHP and Laravel. Lastly, for Database I utilize the technologies MySQL, MariaDB and MongoDB.
               <br></br>
               <br></br>
               If you like my work and looking for someone with similar skill set, please feel free to head over to the Contact section so we can get in touch. I would love to hear from you.
