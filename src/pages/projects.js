@@ -20,7 +20,23 @@ const ProjectsPage = () => (
         </h2>
       </motion.div>
       <motion.div initial={{ y: 1440 }} animate={{ y: 0 }} className="projects-container">
-      <div className="projects-card">
+        <div className="projects-card">
+          <a href="https://todolististaken.herokuapp.com/" target="_blank" rel="noreferrer">
+            <img src={todo} className="card-img" alt="MERN Todo List"></img>
+          </a>
+          <div className="card-body">
+            <a href="https://todolististaken.herokuapp.com/" className="card-title" target="_blank" rel="noreferrer">
+              <h5>MERN Todo List</h5>
+            </a>
+            <p className="card-text">
+            A Todo List application built with React.js, Node.js, Express.js and MongoDB. The frontend interacts with the REST API backend to CRUD data from database.
+            </p>
+          </div>
+          <div className="btn-container"> 
+            <a href="https://github.com/dnicerio/mern-todolist" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+          </div>   
+        </div>
+        <div className="projects-card">
           <a href="https://blogmasteristaken.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={blog} className="card-img" alt="Speed Typing Game"></img>
           </a>
@@ -50,22 +66,6 @@ const ProjectsPage = () => (
           </div>
           <div className="btn-container"> 
             <a href="https://github.com/dnicerio/random-quote-machine/tree/master" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-          </div>   
-        </div>
-        <div className="projects-card">
-          <a href="https://dnicerio.github.io/todolist-redo/" target="_blank" rel="noreferrer">
-            <img src={todo} className="card-img" alt="Todo List"></img>
-          </a>
-          <div className="card-body">
-            <a href="https://dnicerio.github.io/todolist-redo/" className="card-title" target="_blank" rel="noreferrer">
-              <h5>Todo List</h5>
-            </a>
-            <p className="card-text">
-              A Todo List application built in React.js. Aside from all basic Todo List functionality, it also has localStorage support to save/restore todos on app exit.
-            </p>
-          </div>
-          <div className="btn-container"> 
-            <a href="https://github.com/dnicerio/todolist-redo/tree/master" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
       </motion.div>
