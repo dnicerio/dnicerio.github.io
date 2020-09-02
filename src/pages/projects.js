@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import random from '../images/random-quote-machine.png'
+import smoothies from '../images/fresh-smoothies.png'
 import todo from '../images/todo-list.png'
 import blog from '../images/blog-master.png'
 
@@ -21,6 +21,22 @@ const ProjectsPage = () => (
       </motion.div>
       <motion.div initial={{ y: 1440 }} animate={{ y: 0 }} className="projects-container">
         <div className="projects-card">
+          <a href="https://freshsmoothies.herokuapp.com/" target="_blank" rel="noreferrer">
+            <img src={smoothies} className="card-img" alt="Fresh Smoothies"></img>
+          </a>
+          <div className="card-body">
+            <a href="https://freshsmoothies.herokuapp.com/" className="card-title" target="_blank" rel="noreferrer">
+              <h5>Fresh Smoothies</h5>
+            </a>
+            <p className="card-text">
+              Smoothies app built with Node.js, Express.js, MongoDB and EJS. Includes server side login & sign up validation, bcrypt for hashing passwords and JWT for auth.
+            </p>
+          </div>
+          <div className="btn-container"> 
+            <a href="https://github.com/dnicerio/node-jwt" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
+          </div>   
+        </div>
+        <div className="projects-card">
           <a href="https://todolististaken.herokuapp.com/" target="_blank" rel="noreferrer">
             <img src={todo} className="card-img" alt="MERN Todo List"></img>
           </a>
@@ -29,7 +45,7 @@ const ProjectsPage = () => (
               <h5>MERN Todo List</h5>
             </a>
             <p className="card-text">
-            A Todo List application built with React.js, Node.js, Express.js and MongoDB. The frontend interacts with the REST API backend to CRUD data from database.
+              A Todo List application built with React.js, Node.js, Express.js and MongoDB. The frontend interacts with the REST API backend to CRUD data to/from database.
             </p>
           </div>
           <div className="btn-container"> 
@@ -38,7 +54,7 @@ const ProjectsPage = () => (
         </div>
         <div className="projects-card">
           <a href="https://blogmasteristaken.herokuapp.com/" target="_blank" rel="noreferrer">
-            <img src={blog} className="card-img" alt="Speed Typing Game"></img>
+            <img src={blog} className="card-img" alt="Blog Master"></img>
           </a>
           <div className="card-body">
             <a href="https://blogmasteristaken.herokuapp.com/" className="card-title" target="_blank" rel="noreferrer">
@@ -50,22 +66,6 @@ const ProjectsPage = () => (
           </div>
           <div className="btn-container"> 
             <a href="https://github.com/dnicerio/blog-project" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
-          </div>   
-        </div>
-        <div className="projects-card">
-          <a href="https://dnicerio.github.io/random-quote-machine/" target="_blank" rel="noreferrer">
-            <img src={random} className="card-img" alt="Random Quote Machine"></img>
-          </a>
-          <div className="card-body">
-            <a href="https://dnicerio.github.io/random-quote-machine/" className="card-title" target="_blank" rel="noreferrer">
-              <h5>Random Quote Machine</h5>
-            </a>
-            <p className="card-text">
-              Random quote generator application built in React.js. It fetches a random quote and author from a 3rd party API everytime a button is pressed.
-            </p>
-          </div>
-          <div className="btn-container"> 
-            <a href="https://github.com/dnicerio/random-quote-machine/tree/master" className="card-btn" target="_blank" rel="noreferrer"><i className="fa fa-github" aria-hidden="true"></i> Github</a>
           </div>   
         </div>
       </motion.div>
